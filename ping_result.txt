@@ -1,0 +1,11 @@
+
+Pinging 192.168.144.234 with 32 bytes of data:
+Reply from 192.168.144.234: bytes=32 time=59ms TTL=63
+Reply from 192.168.144.234: bytes=32 time=48ms TTL=63
+Reply from 192.168.144.234: bytes=32 time=53ms TTL=63
+Reply from 192.168.144.234: bytes=32 time=75ms TTL=63
+
+Ping statistics for 192.168.144.234:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 48ms, Maximum = 75ms, Average = 58ms

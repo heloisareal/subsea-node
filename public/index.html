@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSH Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conectar via SSH</h1>
+
+    <!-- Formulário de conexão -->
+    <form id="sshForm">
+        <label for="host">Host:</label>
+        <input type="text" id="host" required><br><br>
+
+        <label for="port">Porta:</label>
+        <input type="number" id="port" required><br><br>
+
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" required><br><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" required><br><br>
+
+        <button type="submit">Conectar</button>
+    </form>
+
+    <!-- Tela de conexão bem-sucedida -->
+    <div id="connectionInfo" style="display:none;">
+        <h2>Conectado a: <span id="connectionDetails"></span></h2>
+        <button id="pingButton">Ping</button>
+        <div id="pingResult"></div>
+        <br>
+        <a id="downloadBtn" href="#" download>Baixar Resultados Ping</a>
+    </div>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
